@@ -1,0 +1,91 @@
+@media screen and (min-width:1024px) {
+    .navbar {
+        position:fixed;
+        width:100%;
+        height:15vh;
+       box-shadow: 2px 2px 20px rgb(124, 123, 123);
+       .navbar-brand
+       {
+        position:relative;
+        left:50px;
+        width:5%;
+        top:-10px;
+        height:10vh;
+        img{
+            position:relative;
+            width:100%;
+            border-radius: 3px;
+            height:100%;
+        }
+        p{
+            position:relative;
+            left:-18px;
+            top:5px;
+            font-size: 15px;
+            font-family:fantasy;
+        }
+       }
+       .collapse
+       {
+        position:relative;
+        width:100%;
+        margin-left:30%;
+       
+        li{
+            position:relative;
+            width:100%;
+            margin-left:25%;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            
+           
+        }
+       }
+    }
+}
+@media screen and (max-width:767px) {
+    .navbar {
+        position:relative;
+        width:100%;
+        height:15vh;
+       box-shadow: 2px 2px 20px rgb(124, 123, 123);
+       .navbar-brand
+       {
+        position:relative;
+        left:50px;
+        width:5%;
+        top:-10px;
+        height:10vh;
+        img{
+            position:relative;
+            width:100%;
+            border-radius: 3px;
+            height:100%;
+        }
+        p{
+            position:relative;
+            left:-18px;
+            top:5px;
+            font-size: 15px;
+            font-family:fantasy;
+        }
+       }
+       .collapse
+       {
+        position:relative;
+        width:100%;
+        margin-left:30%;
+       
+        li{
+            position:relative;
+            width:100%;
+            margin-left:25%;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            
+           
+        }
+       }
+    }
+    
+}
