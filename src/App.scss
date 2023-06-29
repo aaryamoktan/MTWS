@@ -107,10 +107,191 @@
         position:relative;
         width:100%;
         height:auto;
-        .homeinnercontainer
+        .idea
         {
             position:relative;
-            top:100px;
+            width:100%;
+            height: auto;
+            
+            .ideainner
+            {
+                position:relative;
+                width:50%;
+                height:80vh;
+                left:25%;
+                top:150px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                p{
+                    position:relative;
+                    margin-top:80px;
+                }
+                button{
+                    position:relative;
+                    top:40px;
+                    width:20%;
+                    border:3px solid rgb(141, 253, 141);
+                    background:transparent;
+                    border-radius: 20px;
+                }
+                button:hover{
+                    position:relative;
+                    border:none;
+                    background:rgb(238, 238, 238);
+                }
+            }
+        }
+        .workwith
+        {
+            position:relative;
+            width:100%;
+            height:80vh;
+            display:flex;
+            .workimg
+            {
+                position:relative;
+                width:40%;
+                left:15%;
+                top:100px;
+
+            }
+            .workinfo
+            {
+                position:relative;
+                width:40%;
+                left:10%;
+                top:100px;
+                font-family: 'Courier New', Courier, monospace;
+                h1{
+                    position:relative;
+                    text-align: center;
+                }
+                p{
+                    position:relative;
+                    font-size: 20px;
+                }
+                button{
+                    position:relative;
+                    border:3px solid rgb(116, 249, 116);
+                    width:150px;
+                    height:5.5vh;
+                    background:transparent;
+                    border-radius: 20px;
+                }
+                button:hover
+                {
+                    position:relative;
+                    border:none;
+                   background:rgb(237, 236, 236)
+                }
+            }
+        }
+        .this-is-us
+        {
+            position:relative;
+            width:100%;
+            height:80vh;
+            display:flex;
+            .this-info
+            {
+                position:relative;
+                left:20%;
+                top:100px;
+                width:30%;
+                h1{
+                    position:relative;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                p{
+                    position: relative;
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                button{
+                    position:relative;
+                    border:3px solid rgb(250, 228, 221);
+                    width:150px;
+                    height:5.5vh;
+                    background:transparent;
+                    border-radius: 20px;
+                }
+                button:hover
+                {
+                    position:relative;
+                    border:none;
+                   background:rgb(237, 236, 236)
+                }
+            }
+            .thisimg
+            {
+                position:relative;
+                top:100px;
+                left:100px;
+                width:40%;
+                height:50vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+
+        }
+        .homd2nd
+        {
+            position:relative;
+            width:100%;
+            height:80vh;
+            
+            .webdevlopment
+            {
+                position:relative;
+                width:100%;
+                height:auto;
+                display:flex;
+                .webdevelopmentinfo
+                {
+                    position:relative;
+                    margin-left:10%;
+                    width:30%;
+                    top:150px;
+                    font-size: 20px;
+                    height:auto;
+                    font-family: 'Courier New', Courier, monospace;
+                    button{
+                        position:relative;
+                        border:3px solid rgb(116, 249, 116);
+                        width:150px;
+                        height:5.5vh;
+                        background:transparent;
+                        border-radius: 20px;
+                    }
+                    button:hover
+                    {
+                        position:relative;
+                        border:none;
+                       background:rgb(237, 236, 236)
+                    }
+
+                }
+                .image
+                {
+                    position:relative;
+                    top:100px;
+                    width:40%;
+                    margin-left:10% ;
+                    img{
+                        position:relative;
+                        width:100%;
+                        height:60vh;
+
+                    }
+                }
+            }
+        }
+        .homeinnercontainer
+        {
+            position:relative;          
             width:100%;
             height:80vh;
             display:flex;
@@ -119,6 +300,7 @@
                 position:relative;
                 width:50%;
                 left:15%;
+                margin-top:100px;
                 height:auto;
                 img{
                     position:relative;
@@ -130,7 +312,7 @@
                 position:relative;
                 left:10%;
                 width:30%;
-               
+                margin-top:100px;
                 font-family: 'Courier New', Courier, monospace;
                 .logoinfoinner
                 {
@@ -147,13 +329,13 @@
                     }@keyframes slide-right {
                     
                    0%{
-                    top:350px;
+                    transform: scale(0.1);
                     color:green;
                    }
                   
                    100%
                    {
-                    top:0%;
+                    transform: scale(1);
                    }
                 }
                 }
@@ -284,6 +466,174 @@
              
                
             }
+        }
+    }
+    .Homecontainer
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        .idea
+        {
+            position:relative;
+            margin-top:90px;
+            width:100%;
+            margin-bottom: 90px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            button{
+                position:relative;
+                top:20px;
+                border-radius: 20px;
+                background: transparent;
+                border: 2px solid black;
+            }
+        }
+        .workwith
+        {
+            position:relative;
+            width:100%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            .workinfo{
+                position:relative;
+                margin-top:80px;
+                button{
+                    position:relative;
+                    top:20px;
+                    border-radius: 20px;
+                    background: transparent;
+                    border: 2px solid black;
+                }
+            }
+            .workimg
+            {
+                position:relative;
+                width:100%;
+                margin-top: 80px;
+                height:40vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+
+
+        }
+        .this-is-us
+        {
+            position:relative;
+            margin-top: 250px;;
+            width:100%;
+
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+            .thisimg{
+                position:relative;
+               width:100%;
+               height:40vh;
+               img{
+                position: relative;
+                width:100%;
+                height:100%;
+               }
+            }.this-info
+            {
+                position:relative;
+                margin-top:50px;
+                button{
+                    position:relative;
+                    top:20px;
+                    border-radius: 20px;
+                    background: transparent;
+                    border: 2px solid black;
+                }
+            }
+
+        }
+        .homd2nd
+        {
+            position:relative;
+            width:100%;
+            top:140px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            button{
+                position:relative;
+                top:20px;
+                border-radius: 20px;
+                background: transparent;
+                border: 2px solid black;
+            }
+            .image
+            {
+                position:relative;
+                width:100%;
+                height: 40vh;
+                img{
+                    position:relative;
+                    top:20px;width:100%;
+                    height:100%;
+                    
+                }
+            }
+        }
+        .homeinnercontainer
+        {
+            position:relative;
+            top:100px;
+            width:100%;
+            height:auto;
+            display:block;
+            .Logo
+            {
+                position:relative;
+                width:100%;
+                left:0%;
+                height:50vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                };
+            }
+            .logoinfo
+            {
+                position:relative;
+                margin-top:40px;
+                width:100%;
+                height:auto;
+                font-family: 'Courier New', Courier, monospace;
+                .logoinfoinner
+                {
+                    position:relative;
+                    height:50vh;
+                    overflow:hidden;
+                    text-align: center;
+                    width:100%;
+                    font-size: 20px;
+                    
+                    p{
+                        position:relative;
+                        font-size: 18px;
+                        animation: 3s slide-right 1;
+                    }@keyframes slide-right {
+                    
+                   0%{
+                    top:350px;
+                    color:green;
+                   }
+                  
+                   100%
+                   {
+                    top:0%;
+                   }
+                }
+                }
+                
+            }
+           
         }
     }
     
