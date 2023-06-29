@@ -6,6 +6,7 @@ import Home from './Content/Home/Home';
 import Features from './Content/Features/Features';
 import About from './Content/About/About';
 import Project from './Content/Projects/Project';
+import Footer from './Content/Footer/Footer';
 import {
   BrowserRouter,
   Route,
@@ -22,6 +23,7 @@ function App() {
         <Route path="/project" element={<Project/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
+      <Footer/>
 
       </BrowserRouter>
     </>
