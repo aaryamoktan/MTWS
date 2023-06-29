@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const img = require("../../images/logo.png")
 const img2 = require("../../images/floo.png")
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
           </div>
           <div className='logoinfo'>
             <div className='logoinfoinner'>
-              <p>MT Web solution is the one of the company in nepal made by all IT student . The main purpose of our comapany to degitilized the Nepal.
+              <p>MT Web solution is the one of the company in nepal made by all IT student . The main purpose of our comapany to Digitalize the Nepal.
                 Our main goal to make  all Nepal Online even for rular areas.
                 In context of Nepal many of school and college or government sector they dont have website.
                 They used facebook page is main medium to shere information to ther student and worker associate with respective organization.
@@ -69,7 +70,7 @@ const Home = () => {
           <div className='ideainner'>
             <h1>TELL US YOUR IDEAS OR PROBLEMS</h1>
             <p>We as a software company would like to solve problems and innovate the best for you. Come let’s work together with technology to automate your problems and empower your business. Softech is always for you and your company. We and our company consider clients as a precious element.</p>
-            <button type="submit">CONTACT US</button>
+            <Link to="/contact"><button type="submit">CONTACT US</button></Link>
           </div>
         </div>
       </div>
