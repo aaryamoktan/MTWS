@@ -5,7 +5,7 @@ const Nevbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light ">
-  <Link class="navbar-brand" href="#">
+  <Link class="navbar-brand" to="/">
     <img src={img} alt="myogo"/>
     <p>MT WEB SOLUTION</p>
   </Link>
