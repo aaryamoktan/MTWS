@@ -18,11 +18,11 @@ const Footer = () => {
             </div>
             <div className='footercontaint3'>
             <h1>Social-Media</h1>
-            <a href="">Facebook</a>
+            <a href="https://www.facebook.com/MT_WEB_Solution-108537245627454" target="blank">Facebook</a>
             <br/>
-            <a href="">instagram</a>
+            <a href="/" target="blank">instagram</a>
             <br/>
-            <a href="">twiter</a>
+            <a href="/" target="blank">twiter</a>
             </div>
         </div>
     )
