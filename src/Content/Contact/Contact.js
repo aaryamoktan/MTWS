@@ -15,9 +15,6 @@ const Contact = () => {
             {
                 reveal[i].classList.add('active');
             }
-            else{
-                
-            }
         }
     }
 
