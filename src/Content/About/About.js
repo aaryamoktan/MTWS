@@ -1,6 +1,23 @@
 import React from 'react'
 
 const About = () => {
+  window.addEventListener('scroll',reveal)
+    
+  function reveal()
+  {
+      var reveal = document.querySelectorAll('.reveal');
+      for( var i=0;i<reveal.length;i++)
+      {
+          var windowheight=window.innerHeight;
+          var revealtop=reveal[i].getBoundingClientRect().top;
+          var revealpoint=150;
+          if(revealtop<windowheight-revealpoint)
+          {
+              reveal[i].classList.add('active');
+          }
+      }
+  }
+
   return (
     <>
       <div className='Aboutcontainer'>
@@ -15,7 +32,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='Aboutconatinerinner2'>
+        <div className='Aboutconatinerinner2 reveal'>
           <div className='img'>
             <img src={require("../../images/abt3.jpg")} alt="" />
           </div>
@@ -25,7 +42,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='Aboutconatinerinner3'>
+        <div className='Aboutconatinerinner3 reveal'>
         <div className='info'>
           <h1>We Work On</h1>
           <p>The term “web development tools” refers to software and apps that provide web developers with the ability to debug and test the code and interface of the website or application they're creating. Technically speaking, the term “web development tools” refers to the products used to debug and test.</p>
@@ -34,7 +51,7 @@ const About = () => {
             <img src={require("../../images/abt2.png")} alt="" />
           </div>
         </div>
-        <div className='Aboutconatinerinner4'>
+        <div className='Aboutconatinerinner4 reveal'>
         
           <div className='img'>
             <img src={require("../../images/abt4.jpeg")} alt="" />
@@ -42,7 +59,6 @@ const About = () => {
           <div className='info'>
           <h1>MyTeam</h1>
           <p>Working together enables us to tackle big projects and audacious goals that just wouldn't be possible alone.  Effective teamwork empowers us to reach our goals and have far more impact.
-
 Teamwork stretches far beyond making the best snow fort or carrying the heaviest objects. But not everyone sees the value and benefits that a group of people working together can accomplish. </p>
         </div>
           
