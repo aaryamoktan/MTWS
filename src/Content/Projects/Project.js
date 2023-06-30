@@ -21,7 +21,7 @@ const Project = () => {
   return (
     <>
       <div className='projectcontainer'>
-        <div className='projectinner reveal'>
+        <div className='projectinner '>
           <div className='projectimg'>
             <img src={require("../../images/web2.jpg")} />
             <p>MT WEB SOLUTION</p>

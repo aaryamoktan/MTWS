@@ -1,4 +1,187 @@
 @media screen and (min-width:1024px) {
+    .Aboutcontainer
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        .Aboutconatinerinner1
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:80px;
+            .img{
+                position:relative;
+                width:100%;
+                height:70vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                left:19%;
+                top:-130px;
+                width:60%;
+                height:50vh;
+                background:white;
+                border-radius: 20px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                box-shadow: 0.1px 0.1px 20px rgb(240, 119, 119);
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner2
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:80px;
+            display:flex;
+            .img{
+                position:relative;
+                width:45%;
+                left:4%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:40%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner3
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:180px;
+            margin-bottom: 100px;
+            display:flex;
+            .img{
+                position:relative;
+                width:45%;
+                left:14%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:40%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner4
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:180px;
+            margin-bottom: 100px;
+            display:flex;
+            .img{
+                position:relative;
+                width:45%;
+                left:4%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:40%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .Featurescontainer
+    {
+        position: relative;
+        width:100%;
+        height:auto;
+        .Featurescontainerinnner
+        {
+            position:relative;
+            width:100%;
+            height:100vh;
+        }
+    }
     .reveal{
         position:relative;
         transform: translateY(150px);
@@ -1147,5 +1330,200 @@
             }
         }
     }
-    
+    .Aboutcontainer
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        .Aboutconatinerinner1
+        {
+            position:relative;
+            width:100%;
+            height:100vh;
+        }
+
+    }
+    .Featurescontainer
+    {
+        position: relative;
+        width:100%;
+        height:auto;
+        .Featurescontainerinnner
+        {
+            position:relative;
+            width:100%;
+            height:100vh;
+        }
+    } 
+    .Aboutcontainer
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        .Aboutconatinerinner1
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:80px;
+            .img{
+                position:relative;
+                width:100%;
+                height:70vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                left:19%;
+                top:-130px;
+                width:60%;
+                height:50vh;
+                background:white;
+                border-radius: 20px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                box-shadow: 0.1px 0.1px 20px rgb(240, 119, 119);
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner2
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:80px;
+            
+            .img{
+                position:relative;
+                width:90%;
+                left:5%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:80%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner3
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:180px;
+            margin-bottom: 100px;
+            display:flex;
+            .img{
+                position:relative;
+                width:45%;
+                left:14%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:40%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .Aboutconatinerinner4
+        {
+            position:relative;
+            width:100%;
+            height:auto;
+            margin-top:180px;
+            margin-bottom: 100px;
+            display:flex;
+            .img{
+                position:relative;
+                width:45%;
+                left:4%;
+                height:60vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .info
+            {
+                position:relative;
+                width:40%;
+                top:30px;
+                left:10%;
+                height:50vh;
+                background:white;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+             
+                h1{
+                    position:relative;
+                    top: 15px;
+                    text-decoration: underline;
+                }
+                p{
+                    position:relative;
+                    top:40px;
+                    font-size: 18px;
+                }
+            }
+        }
+    } 
 }

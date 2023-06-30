@@ -2,7 +2,19 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <>
+      <div className='Featurescontainer'>
+        <div className='Featurescontainerinnner'>
+
+        </div>
+        <div className='Featurescontainerinnner2'>
+          
+        </div>
+        <div className='Featurescontainerinnner3'>
+          
+        </div>
+      </div>
+    </>
   )
 }
 
