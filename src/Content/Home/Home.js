@@ -3,6 +3,25 @@ import { Link } from 'react-router-dom'
 const img = require("../../images/logo.png")
 const img2 = require("../../images/floo.png")
 const Home = () => {
+  window.addEventListener('scroll',reveal)
+    
+  function reveal()
+  {
+      var reveal = document.querySelectorAll('.reveal');
+      for( var i=0;i<reveal.length;i++)
+      {
+          var windowheight=window.innerHeight;
+          var revealtop=reveal[i].getBoundingClientRect().top;
+          var revealpoint=150;
+          if(revealtop<windowheight-revealpoint)
+          {
+              reveal[i].classList.add('active');
+          }
+          else{
+              
+          }
+      }
+  }
   return (
     <>
       <div className='Homecontainer'>
@@ -21,7 +40,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='homd2nd'>
+        <div className='homd2nd reveal'>
           <div className='webdevlopment'>
             <div className='webdevelopmentinfo'>
               <h1>Web Development</h1>
@@ -34,7 +53,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='this-is-us'>
+        <div className='this-is-us reveal'>
           <div className='thisimg'>
             <img src={require("../../images/web.jpg")} alt="img" />
           </div>
@@ -51,7 +70,7 @@ const Home = () => {
             <button type="submit">GOT TO KNOW US</button>
           </div>
         </div>
-        <div className='workwith'>
+        <div className='workwith reveal'>
           <div className='workinfo'>
             <h1>
               HERE’S WHO WE’VE HELPED SO FAR
@@ -66,7 +85,7 @@ const Home = () => {
             <img src={require("../../images/work.jpg")} alt="ldmf" />
           </div>
         </div>
-        <div className='idea'>
+        <div className='idea reveal'>
           <div className='ideainner'>
             <h1>TELL US YOUR IDEAS OR PROBLEMS</h1>
             <p>We as a software company would like to solve problems and innovate the best for you. Come let’s work together with technology to automate your problems and empower your business. Softech is always for you and your company. We and our company consider clients as a precious element.</p>
