@@ -4,14 +4,8 @@ const Features = () => {
   return (
     <>
       <div className='Featurescontainer'>
-        <div className='Featurescontainerinnner'>
-
-        </div>
-        <div className='Featurescontainerinnner2'>
-          
-        </div>
-        <div className='Featurescontainerinnner3'>
-          
+        <div className='featureinner'>
+        <img src={require("../../images/web.jpg")}/>
         </div>
       </div>
     </>
