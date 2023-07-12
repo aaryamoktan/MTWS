@@ -3,35 +3,150 @@
     {
         position:relative;
         top:100%;
-        width:30%;
+        width:100%;
+        overflow-x: hidden;
         height:auto;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        p{
+            position:relative;
+            width:15%;
+            left:43%;
+            border-radius: 30px;
+            font-size: 40px;
+            margin-top: 30px;
+            animation:10s infinite ease-in-out ani;  
+        }
+        .hover
+        {
+            position:relative;
+            width:30%;
+            left:35%;
+        }
+        .hover1{
+            position:relative;
+            left:0;
+            width:100%;
+            height:auto;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .hoverinner1
+            {
+                position:relative;
+                width:30%;
+                height:50vh;
+                margin:20px;
+                border-radius: 20% 0% 20% 0%;
+                background:black;
+            }
+        }
+        @keyframes ani {
+            0%{
+                box-shadow: 1px 2px 20px rgb(208, 42, 42);
+            }
+            10%{
+                box-shadow: 1px 2px 20px rgb(16, 227, 93);
+            }
+            20%{
+                box-shadow: 1px 2px 20px rgb(16, 145, 188);
+            }
+            30%{
+                box-shadow: 1px 2px 20px rgb(24, 5, 128);
+            }
+            40%{
+                box-shadow: 1px 2px 20px black;
+            }
+            50%{
+                box-shadow: 1px 2px 20px rgb(239, 17, 187);
+            }
+            60%{
+                box-shadow: 1px 2px 20px rgb(11, 230, 44);
+            }
+            70%{
+                box-shadow: 1px 2px 20px rgb(230, 9, 17);
+            }
+            80%{
+                box-shadow: 1px 2px 20px rgb(24, 10, 219);
+            }
+            90%{
+                box-shadow: 1px 2px 20px rgb(112, 198, 20);
+            }
+            100%{
+                box-shadow: 1px 2px 20px rgb(19, 192, 30);
+            }
+        }
         .featureinner
         {
             position:relative;
-            width: 40%;
+            width: 100%;
             margin: 100px;
             height:70vh;
             border-radius: 30% 0% 30% 0%;
-            background :rgb(248, 171, 225);
-            margin-left: 30%;
-            img
+            display: flex;
+            .imgslid
             {
                 position:relative;
-                width:90%;
-                height:90%;
-                margin-top: 5%;
-                margin-left: 5%;
+                width:35%;
+                top:7%;
+                height:50vh;
+                left:-10%;
                 border-radius: 30% 0% 30% 0%;
-                transition-duration: 4s;
-                transition-delay: 2s;
+                background:rgb(244, 132, 207);
+                animation:3s infinite ease-in-out right;
             }
-            img:hover{
-                
-                transform: scale(1.15   );
-                box-shadow: 2px 2px 20px rgb(95, 94, 94);           
+            @keyframes right {
+                0%{
+                    position:relative;
+                    left:70%;
+                    transform: rotate(90deg);
+                    opacity: 0;
+                }
+                50%
+                {
+                    opacity: 0.5;
+                }
+                100%{   
+                    transform: rotate(360deg);
+                }   
+            }
+            .img{
+                position:relative;
+                width:35%;
+                height:50vh;
+                img
+                {
+                    position:relative;
+                    width:90%;
+                    height:90%;
+                    margin-top: 10.5%;
+                    margin-left: 76.5%;
+                    border-radius: 30% 0% 30% 0%;
+                    animation:3s infinite ease-in-out left;
+                    z-index: 1;
+                }
+                @keyframes left {
+                    0%{
+                        position:relative;
+                        left:-100%;
+                        transform: rotate(90deg);
+                    }
+                    50%{
+                        left:-0%;
+                        transform: rotate(270deg);
+                    }
+                    100%{
+                        left:0%;
+                        transform: rotate(360deg);
+                    }
+                    
+                }
             }
            
+            
+           
         }
+        
        
     }
     .Aboutcontainer
@@ -205,18 +320,7 @@
             }
         }
     }
-    .Featurescontainer
-    {
-        position: relative;
-        width:100%;
-        height:auto;
-        .Featurescontainerinnner
-        {
-            position:relative;
-            width:100%;
-            height:100vh;
-        }
-    }
+  
     .reveal{
         position:relative;
         transform: translateY(150px);

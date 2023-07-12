@@ -3,10 +3,39 @@ import React from 'react'
 const Features = () => {
   return (
     <>
-      <div className='Featurescontainer'>
+      <div className='Featurescontainer'><p> Animation</p>
         <div className='featureinner'>
-        <img src={require("../../images/web.jpg")}/>
+       
+        <div className='img'>
+          <img src={require("../../images/web.jpg")}/>
         </div>
+         <div className='imgslid'> 
+        </div>
+        </div>
+       <p className='hover'>Hover-Effert</p>
+       <div className='hover1'>
+       <div className='hoverinner1'>
+
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       <div className='hoverinner1'>
+        
+       </div>
+       </div>
       </div>
     </>
   )
