@@ -17,24 +17,13 @@ const Features = () => {
        <div className='hoverinner1'>
 
        </div>
-       <div className='hoverinner1'>
+       <div className='hoverinner2'>
         
        </div>
-       <div className='hoverinner1'>
+       <div className='hoverinner3'>
         
        </div>
-       <div className='hoverinner1'>
-        
-       </div>
-       <div className='hoverinner1'>
-        
-       </div>
-       <div className='hoverinner1'>
-        
-       </div>
-       <div className='hoverinner1'>
-        
-       </div>
+      
        </div>
       </div>
     </>
