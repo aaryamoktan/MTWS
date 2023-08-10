@@ -11,7 +11,7 @@ const Features = () => {
           <div className='imgslid'>
           </div>
         </div>
-        <p className='hover'>Hover-Effert</p>
+        <p className='hover'>Hover-Effet</p>
         <div className='hover1'>
           <div className='hoverinner1'>
           </div>
