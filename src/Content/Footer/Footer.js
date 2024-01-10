@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { ImFacebook2 } from "react-icons/im";
+import { BsInstagram } from "react-icons/bs";
+import { FaSquareTwitter } from "react-icons/fa6";
 const Footer = () => {
     return (
         <div className='footer' style={{position:"relative"}}>
@@ -10,19 +12,19 @@ const Footer = () => {
             </div>
             <div className=' footercontaint2'>
             <h1>Contact</h1>
-            +977 9803071043
+            +977 9803071043  / +977 9814826533 
             <br/>
-            +977 **********
-            <br/>
-           <p>Email:moktanteamwebsolun@gmail.com</p>
+            
+           <p>Email: mtwebsolution4@gmail.com</p>
             </div>
             <div className='footercontaint3'>
             <h1>Social-Media</h1>
-            <a href="https://www.facebook.com/MT_WEB_Solution-108537245627454" target="blank"><i class="fa-brands fa-square-facebook">Facebook</i></a>
+            <a href="https://www.facebook.com/profile.php?id=61555124925505&mibextid=eHce3h" target="blank"><i class="fa-brands fa-square-facebook">{<ImFacebook2/>}</i></a>
             <br/>
-            <a href="/" target="blank"><i class="fa-brands fa-square-instagram" style={{"background":"white"}}>Instagram</i></a>
+            <a href="/" target="blank"><i class="fa-brands fa-square-instagram" style={{}}><BsInstagram/>
+            </i></a>
             <br/>
-            <a href="/" target="blank"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
+            <a href="/" target="blank"><i class="fa-brands fa-square-twitter"></i><FaSquareTwitter/></a>
             </div>
         </div>
     )

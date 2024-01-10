@@ -7,6 +7,7 @@
         {
             position:relative;
             text-align: center;
+            
             .serviceWeb
             {
                 position:relative;
@@ -154,10 +155,14 @@
             }
             .serviceCard{
                 position:relative;
+                display:flex;
+                width:100%;
                 .card{
                     position:relative;
                     color:white;
                     text-align: center;
+                    width:30%;
+                    margin:20px;
                     border-radius: 10px;
                     background:rgb(66, 66, 66);
                     .card-title{
@@ -493,6 +498,7 @@
                 }
                 button:hover{
                     position:relative;
+                    cursor: pointer;
                     border:none;
                     background:rgb(238, 238, 238);
                 }
@@ -538,6 +544,7 @@
                 button:hover
                 {
                     position:relative;
+                    cursor: pointer;
                     border:none;
                    background:rgb(237, 236, 236)
                 }
@@ -576,6 +583,7 @@
                 {
                     position:relative;
                     border:none;
+                    cursor: pointer;
                    background:rgb(237, 236, 236)
                 }
             }
@@ -626,6 +634,7 @@
                     button:hover
                     {
                         position:relative;
+                        cursor: pointer;
                         border:none;
                        background:rgb(237, 236, 236)
                     }
@@ -1025,12 +1034,11 @@
         background: rgb(5, 2, 13);
       color:white;
         box-shadow: 2px 2px 20px rgb(55, 55, 55);
-        display:flex;
-        flex-wrap: wrap;
+        
         .footercontaint1
         {
             position:relative;
-            width:30.33%;
+            width:100%;
             margin-left:0px;
             text-align: center;
             
@@ -1050,27 +1058,24 @@
         .footercontaint2
         {
             position:relative;
-            left:10%;
+            width:100%;
             text-align: center;
             h1{
                 position:relative;
-                top:10px;
-                font-size: 20px;
-                
+                margin-top:40px;
+                font-size: 20px;   
             }
             p{
                 position:relative;
                 width:100% ;
-                height:40%;
-               
-                
+                height:auto;   
             }
         }
         .footercontaint3
         {
             position:relative;
-            width:33.33%;
-            left:32%;
+            width:100%;
+            margin-top: 20px;
             text-align: center;
             bottom: 10px;
             
@@ -1078,14 +1083,12 @@
             h1{
                 position:relative;
                 top:10px;
-                font-size: 20px;
-               
+                margin-bottom: 20px;
+                font-size: 20px; 
             }
             a{
-                position:relative;
-               color:white
-             
-               
+                position:relative; 
+                color:white; 
             }
         }
     }
@@ -1127,6 +1130,7 @@
                     position:relative;
                     width:30%;
                     top:20px;
+                    cursor: pointer;
                     border-radius: 20px;
                     background: transparent;
                     border: 2px solid black;
@@ -1171,6 +1175,7 @@
                 button{
                     position:relative;
                     top:20px;
+                    cursor: pointer;
                     border-radius: 20px;
                     background: transparent;
                     border: 2px solid black;
@@ -1198,6 +1203,7 @@
                 button{
                     position:relative;
                     top:20px;
+                    cursor: pointer;
                     border-radius: 20px;
                     background: transparent;
                     border: 2px solid black;
@@ -1907,18 +1913,22 @@
         height:auto;
         .servicecontainerrinner
         {
-
             position:relative;
+            width:100%;
             text-align: center;
+            h1{
+                position:relative;
+            }
             .serviceCard{
                 position:relative;
-                width:300%;
-                right:5% ;
+                width:80%;
                 display:flex;
                 flex-direction: column;
                 .card{
                     position:relative;
-                    width:90%;
+                    width:100%;
+                    margin-top:10%;
+
                 }
             }
             .serviceWeb

@@ -87,7 +87,7 @@ const Home = () => {
             <Link href="/project"  onClick={()=>
             {
               window.scrollTo({top:0,left:0})
-            }} ><button type="submit">WE WORK WITH</button></Link>
+            }}  style={{cursor:"pointer"}}><button type="submit">WE WORK WITH</button></Link>
           </div>
           <div className='workimg'>
             <img src={require("../../images/work.jpg")} alt="ldmf" />
