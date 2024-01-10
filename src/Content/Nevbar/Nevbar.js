@@ -25,7 +25,7 @@ const Nevbar = () => {
       </li>
       
       <li class="nav-item">
-        <Link class="nav-link active" onClick={()=>window.location="/about"} to="/about">About</Link>
+        <Link class="nav-link active" onClick={()=>window.location="/about"} to="">About</Link>
       </li>
     </ul>
   </div>

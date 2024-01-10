@@ -92,7 +92,7 @@ const Home = () => {
           <div className='ideainner'>
             <h1>TELL US YOUR IDEAS OR PROBLEMS</h1>
             <p>We as a software company would like to solve problems and innovate the best for you. Come let’s work together with technology to automate your problems and empower your business. Softech is always for you and your company. We and our company consider clients as a precious element.</p>
-            <Link href="/contact" onClick={()=>window.location="/contact"}><button type="submit">CONTACT US</button></Link>
+            <Link to="/contact" onClick={()=>window.location="/contact"}><button type="submit">CONTACT US</button></Link>
           </div>
         </div>
       </div>
