@@ -46,10 +46,7 @@ const Home = () => {
               <h1>Web Development</h1>
               <p>MT WEB SOLUTION Pvt. Ltd. welcomes you with a bouquet of professional Web Application, Software services and promises to partner you through to a new level of functional excellence.
                 We are a Nepal based Software Company located in Kathmandu with a national presence.</p>
-            <Link onClick={()=>
-            {
-              window.location="/project"
-            }} href="/project"><button type="submit">VIEW MORE</button></Link></div>
+            <Link to="/project"><button type="submit">VIEW MORE</button></Link></div>
             
             <div className='image'>
               <img src={img2} alt="" />
@@ -70,9 +67,8 @@ const Home = () => {
 
               Similarly, all other software are tested in terms of security. we will always work as the best software company in Nepal.
             </p>
-           <Link to="/about" onClick={()=>window.location="/about"}><button type="submit">GOT TO KNOW US</button></Link> 
-          </div>
-        </div>
+           <Link to="/about" ><button type="submit">GOT TO KNOW US</button></Link> 
+          </div>        </div>
         <div className='workwith reveal'>
           <div className='workinfo'>
             <h1>
@@ -82,7 +78,7 @@ const Home = () => {
               During the years, our company have connected with amazing clients to enable them with robust web and software applications to which has delivered outstanding results for their businesses.
               Our efforts and dedication helped many of our clients and they consider us as the best software company in Nepal.
             </p>
-            <Link to="" onClick={()=>window.location="/features"}><button type="submit">WE WORK WITH</button></Link>
+            <Link to="/" ><button type="submit">WE WORK WITH</button></Link>
           </div>
           <div className='workimg'>
             <img src={require("../../images/work.jpg")} alt="ldmf" />
