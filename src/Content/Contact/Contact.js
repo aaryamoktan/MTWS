@@ -17,14 +17,14 @@ const Contact = () => {
             }
         }
     }
-
+   
     const Nevigation = useNavigate();
     const submit = (evt) => {
         alert("thanks your ides or feedback");
         Nevigation("/")
     }
     return (
-        <div className='Contact '>
+        <div className='Contact  '>
             <div className='nepalimg '>
                 <img src={require("../../images/nepal.png")} alt="" />
             </div>

@@ -1,28 +1,26 @@
 import React from 'react'
+import Contact from '../Contact/Contact'
 import { Link,useNavigate } from 'react-router-dom'
 const img = require("../../images/l.png")
 const img2 = require("../../images/floo.png")
+
 const Home = () => {
   window.addEventListener('scroll',reveal)
-  const navigate = useNavigate();
     
-  function reveal()
-  {
-      var reveal = document.querySelectorAll('.reveal');
-      for( var i=0;i<reveal.length;i++)
-      {
-          var windowheight=window.innerHeight;
-          var revealtop=reveal[i].getBoundingClientRect().top;
-          var revealpoint=150;
-          if(revealtop<windowheight-revealpoint)
-          {
-              reveal[i].classList.add('active');
-          }
-          else{
-              
-          }
-      }
-  }
+    function reveal()
+    {
+        var reveal = document.querySelectorAll('.reveal');
+        for( var i=0;i<reveal.length;i++)
+        {
+            var windowheight=window.innerHeight;
+            var revealtop=reveal[i].getBoundingClientRect().top;
+            var revealpoint=150;
+            if(revealtop<windowheight-revealpoint)
+            {
+                reveal[i].classList.add('active');
+            }
+        }
+    }
   return (
     <>
       <div className='Homecontainer'>
@@ -47,7 +45,10 @@ const Home = () => {
               <h1>Web Development</h1>
               <p>MT WEB SOLUTION Pvt. Ltd. welcomes you with a bouquet of professional Web Application, Software services and promises to partner you through to a new level of functional excellence.
                 We are a Nepal based Software Company located in Kathmandu with a national presence.</p>
-            <Link to="/project"><button type="submit">VIEW MORE</button></Link></div>
+            <Link to="/project"  onClick={()=>
+            {
+              window.scrollTo({top:0,left:0})
+            }}><button type="submit">VIEW MORE</button></Link></div>
             
             <div className='image'>
               <img src={img2} alt="" />
@@ -68,9 +69,13 @@ const Home = () => {
 
               Similarly, all other software are tested in terms of security. we will always work as the best software company in Nepal.
             </p>
-           <Link to="/about" ><button type="submit">GOT TO KNOW US</button></Link> 
+           <Link to="/about"  onClick={()=>
+            {
+              window.scrollTo({top:0,left:0})
+              
+            }} ><button type="submit">GOT TO KNOW US</button></Link> 
           </div>        </div>
-        <div className='workwith reveal'>
+        <div className='workwith '>
           <div className='workinfo'>
             <h1>
               HERE’S WHO WE’VE HELPED SO FAR
@@ -79,7 +84,10 @@ const Home = () => {
               During the years, our company have connected with amazing clients to enable them with robust web and software applications to which has delivered outstanding results for their businesses.
               Our efforts and dedication helped many of our clients and they consider us as the best software company in Nepal.
             </p>
-            <a href="../Contact/Contact.js" ><button type="submit">WE WORK WITH</button></a>
+            <a href="/project"  onClick={()=>
+            {
+              window.scrollTo({top:0,left:0})
+            }} ><button type="submit">WE WORK WITH</button></a>
           </div>
           <div className='workimg'>
             <img src={require("../../images/work.jpg")} alt="ldmf" />
@@ -89,10 +97,10 @@ const Home = () => {
           <div className='ideainner'>
             <h1>TELL US YOUR IDEAS OR PROBLEMS</h1>
             <p>We as a software company would like to solve problems and innovate the best for you. Come let’s work together with technology to automate your problems and empower your business. Softech is always for you and your company. We and our company consider clients as a precious element.</p>
-            <Link onClick={()=>
+            <Link to="/contact" onClick={()=>
             {
-              window.location=("/contact")
-            }} href="/contact"   ><button type="submit">CONTACT US</button></Link>
+              window.scrollTo({top:0,left:0})
+            }}><button type="submit">CONTACT US</button></Link>
           </div>
         </div>
       </div>

@@ -17,11 +17,10 @@ const About = () => {
           }
       }
   }
-
   return (
     <>
-      <div className='Aboutcontainer'>
-        <div className='Aboutconatinerinner1'>
+      <div className='Aboutcontainer '>
+        <div className='Aboutconatinerinner1 reval'>
           <div className='img'>
             <img src={require("../../images/abt1.jpg")} alt="" />
           </div>
@@ -32,7 +31,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='Aboutconatinerinner2 reveal'>
+        <div className='Aboutconatinerinner2 reval'>
           <div className='img'>
             <img src={require("../../images/abt3.jpg")} alt="" />
           </div>
@@ -42,7 +41,7 @@ const About = () => {
           </div>
 
         </div>
-        <div className='Aboutconatinerinner3 reveal'>
+        <div className='Aboutconatinerinner3 '>
         <div className='info'>
           <h1>We Work On</h1>
           <p>The term “web development tools” refers to software and apps that provide web developers with the ability to debug and test the code and interface of the website or application they're creating. Technically speaking, the term “web development tools” refers to the products used to debug and test.</p>
@@ -51,12 +50,12 @@ const About = () => {
             <img src={require("../../images/abt2.png")} alt="" />
           </div>
         </div>
-        <div className='Aboutconatinerinner4 reveal'>
+        <div className='Aboutconatinerinner4 '>
         
           <div className='img'>
             <img src={require("../../images/abt4.jpeg")} alt="" />
           </div>
-          <div className='info reveal'>
+          <div className='info '>
           <h1>MyTeam</h1>
           <p>Working together enables us to tackle big projects and audacious goals that just wouldn't be possible alone.  Effective teamwork empowers us to reach our goals and have far more impact.
 Teamwork stretches far beyond making the best snow fort or carrying the heaviest objects. But not everyone sees the value and benefits that a group of people working together can accomplish. </p>
