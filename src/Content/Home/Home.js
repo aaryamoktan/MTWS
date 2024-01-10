@@ -84,10 +84,10 @@ const Home = () => {
               During the years, our company have connected with amazing clients to enable them with robust web and software applications to which has delivered outstanding results for their businesses.
               Our efforts and dedication helped many of our clients and they consider us as the best software company in Nepal.
             </p>
-            <a href="/project"  onClick={()=>
+            <Link href="/project"  onClick={()=>
             {
               window.scrollTo({top:0,left:0})
-            }} ><button type="submit">WE WORK WITH</button></a>
+            }} ><button type="submit">WE WORK WITH</button></Link>
           </div>
           <div className='workimg'>
             <img src={require("../../images/work.jpg")} alt="ldmf" />
