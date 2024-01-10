@@ -32,7 +32,7 @@ const Contact = () => {
                 <h1>Let Digitalize Nepal</h1>
             </div>
             <div className='form '>
-                <div className='forminfo reveal'>
+                <div className='forminfo '>
                     <h1>Contact</h1>
                     <p>Hey feel free to shere what you feel</p>
                 </div>

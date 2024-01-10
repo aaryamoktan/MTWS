@@ -1,30 +1,31 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const img = require("../../images/logo.png")
+const img = require("../../images/mttt.png")
 const Nevbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light ">
-  <Link class="navbar-brand" to="/">
-    <img src={img} alt="myogo"/>
-    <p>MT WEB SOLUTION</p>
-  </Link>
+  <a class="navbar-brand" href="/">
+    <img src={img} alt="myogo" style={{width:"100%",marginLeft:"-50%"}}/>
+    <p style={{marginLeft:"-50%"}}>MT WEB SOLUTION</p>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <Link class="nav-link" to="/">Home </Link>
+        <Link class="nav-link" onClick={()=>window.location="/"}  to="/">Home </Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link active" to="/features">Features</Link>
+        <Link class="nav-link active" onClick={()=>window.location="/features"} to="">Features</Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link active" to="/project">Project</Link>
+        <Link class="nav-link active" onClick={()=>window.location="/features"} to="">Services</Link>
       </li>
+      
       <li class="nav-item">
-        <Link class="nav-link active" to="/about">About</Link>
+        <Link class="nav-link active" onClick={()=>window.location="/about"} to="/about">About</Link>
       </li>
     </ul>
   </div>

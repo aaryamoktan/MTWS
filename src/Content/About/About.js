@@ -56,7 +56,7 @@ const About = () => {
           <div className='img'>
             <img src={require("../../images/abt4.jpeg")} alt="" />
           </div>
-          <div className='info'>
+          <div className='info reveal'>
           <h1>MyTeam</h1>
           <p>Working together enables us to tackle big projects and audacious goals that just wouldn't be possible alone.  Effective teamwork empowers us to reach our goals and have far more impact.
 Teamwork stretches far beyond making the best snow fort or carrying the heaviest objects. But not everyone sees the value and benefits that a group of people working together can accomplish. </p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' style={{position:"relative"}}>
             <div className='footercontaint1'>
             <h1>Information</h1>
             <p>Find best solution for your company ,protfilio,school,college
