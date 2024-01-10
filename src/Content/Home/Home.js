@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 const img = require("../../images/l.png")
 const img2 = require("../../images/floo.png")
 const Home = () => {
   window.addEventListener('scroll',reveal)
+  const navigate = useNavigate();
     
   function reveal()
   {
@@ -88,7 +89,10 @@ const Home = () => {
           <div className='ideainner'>
             <h1>TELL US YOUR IDEAS OR PROBLEMS</h1>
             <p>We as a software company would like to solve problems and innovate the best for you. Come let’s work together with technology to automate your problems and empower your business. Softech is always for you and your company. We and our company consider clients as a precious element.</p>
-            <Link to="/contact" ><button type="submit">CONTACT US</button></Link>
+            <Link  onClick={()=>
+            {
+              window.location=("/contact")
+            }} ><button type="submit">CONTACT US</button></Link>
           </div>
         </div>
       </div>
