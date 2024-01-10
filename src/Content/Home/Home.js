@@ -92,7 +92,7 @@ const Home = () => {
             <Link onClick={()=>
             {
               window.location=("/contact")
-            }} to="/contact"   ><button type="submit">CONTACT US</button></Link>
+            }} href="/contact"   ><button type="submit">CONTACT US</button></Link>
           </div>
         </div>
       </div>
