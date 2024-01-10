@@ -1,7 +1,5 @@
 import React from 'react'
-import { ImFacebook2 } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
-import { FaSquareTwitter } from "react-icons/fa6";
+
 const Footer = () => {
     return (
         <div className='footer' style={{position:"relative"}}>
