@@ -15,17 +15,17 @@ const Nevbar = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <Link class="nav-link" onClick={()=>window.location="/"}  to="/">Home </Link>
+        <Link class="nav-link" onClick={()=>window.location="/"}  >Home </Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link active" onClick={()=>window.location="/features"} to="">Features</Link>
+        <Link class="nav-link active" to="/features">Features</Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link active" onClick={()=>window.location="/features"} to="">Services</Link>
+        <Link class="nav-link active" to="/Service">Services</Link>
       </li>
       
       <li class="nav-item">
-        <Link class="nav-link active" onClick={()=>window.location="/about"} to="">About</Link>
+        <Link class="nav-link active"  to="/about">About</Link>
       </li>
     </ul>
   </div>
