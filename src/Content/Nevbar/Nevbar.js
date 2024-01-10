@@ -17,9 +17,7 @@ const Nevbar = () => {
       <li class="nav-item active">
         <Link to="/" class="nav-link">Home </Link>
       </li>
-      <li class="nav-item">
-        <Link class="nav-link active" to="/features">Features</Link>
-      </li>
+      
       <li class="nav-item">
         <Link class="nav-link active" to="/Service">Services</Link>
       </li>

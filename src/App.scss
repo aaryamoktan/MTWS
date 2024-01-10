@@ -7,7 +7,148 @@
         {
             position:relative;
             text-align: center;
-            h1{
+            .serviceWeb
+            {
+                position:relative;
+                width:100%;
+                height:auto;
+                margin-top: 20px;
+                .servicewebInner
+                {
+                    position:relative;
+                    .webType3
+                    {
+                        position:relative;
+                        margin-top: 50px;
+                        box-shadow: 2px 2px 10px black;
+                        display:flex;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:50%;
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                            
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            text-align: center;
+                            width:50%;
+                            
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .webType4
+                    {
+                        position:relative;
+                        margin-top: 50px;
+                        display:flex;
+                        box-shadow: 2px 2px 10px black;
+                        margin-bottom: 30px;
+                        flex-direction: row-reverse;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:50%;
+                            height:70vh;
+                           
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            width:50%;
+                            margin-top: 5%;
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .webType1
+                    {
+                        position:relative;
+                        display:flex;
+                        box-shadow: 2px 2px 12px black;
+                        margin-top: 50px;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:50%;
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                        
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            margin-top: 5%;
+                            width:50%;
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                            }
+                        }
+
+                    }
+                    .webType2
+                    {
+                        position:relative;
+                        display:flex;
+                        margin-top:50px;
+                        flex-direction: row-reverse;
+                        box-shadow: 2px 2px 10px black;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:50%;
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                            
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            width:50%;
+                             margin-top: 5%;
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                }
+            }
+            h1{ 
                 position:relative;
                 margin-top:100px ;
             }
@@ -242,7 +383,7 @@
         margin-left:20%;
         ul{
             position:relative;
-            margin-left: 20%;
+            margin-left: 30%;
         }
        
         li{
@@ -1760,4 +1901,192 @@
             }  
         }  
     } 
+    .serviceContainer{
+        position:relative;
+        width:100%;
+        height:auto;
+        .servicecontainerrinner
+        {
+
+            position:relative;
+            text-align: center;
+            .serviceCard{
+                position:relative;
+                width:300%;
+                display:flex;
+                flex-direction: column;
+                .card{
+                    position:relative;
+                    width:80%;
+                }
+            }
+            .serviceWeb
+            {
+                position:relative;
+                width:100%;
+                height:auto;
+                margin-top: 20px;
+                .servicewebInner
+                {
+                    position:relative;
+                    .webType3
+                    {
+                        position:relative;
+                        margin-top: 50px;
+                        box-shadow: 2px 2px 10px black;
+                        display:flex;
+                        flex-direction: column;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:100%;
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                            
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            text-align: center;
+                            width:100%;
+                            
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                                overflow: scroll;
+                            }
+                        }
+                    }
+                    .webType4
+                    {
+                        position:relative;
+                        margin-top: 50px;
+                        display:flex;
+                        flex-direction: column;
+                        box-shadow: 2px 2px 10px black;
+                        margin-bottom: 30px;
+                        
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:100%;
+                            height:70vh;
+                           
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            width:100%;
+                            margin-top: 5%;
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                                overflow: scroll;
+                            }
+                        }
+                    }
+                    .webType1
+                    {
+                        position:relative;
+                        display:flex;
+                        flex-direction: column;
+                        box-shadow: 2px 2px 12px black;
+                        margin-top: 50px;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:100%;
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                        
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                            margin-top: 5%;
+                            width:100%;
+                            p{
+                                position:relative;
+                                width:100%;
+                                height:30vh;
+                                overflow: scroll;
+                                text-align: center;
+                            }
+                        }
+
+                    }
+                    .webType2
+                    {
+                        position:relative;
+                        display:flex;
+                        flex-direction: column;
+                        margin-top:50px;
+                        
+                        box-shadow: 2px 2px 10px black;
+                        .webtypeimg
+                        {
+                            position:relative;
+                            margin:20px;
+                            width:100%;
+                            
+                            height:70vh;
+                            img{
+                                position:relative;
+                                width:100%;
+                                height:100%
+                            }
+                            
+                        }
+                        .webtypeinformation{
+                            position:relative;
+                             width:100%;
+                             margin-top: 5%;
+                            p{
+                                position:relative;
+                                overflow: scroll;
+                                width:100%;
+                                height:30vh;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                }
+            }
+            h1{ 
+                position:relative;
+                margin-top:100px ;
+            }
+            .serviceCard{
+                position:relative;
+                .card{
+                    position:relative;
+                    color:white;
+                    text-align: center;
+                    border-radius: 10px;
+                    background:rgb(66, 66, 66);
+                    .card-title{
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
 }
