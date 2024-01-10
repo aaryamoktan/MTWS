@@ -8,6 +8,7 @@ import Features from './Content/Features/Features';
 import About from './Content/About/About';
 import Project from './Content/Projects/Project';
 import Footer from './Content/Footer/Footer';
+import Service from './Content/Service/Service';
 import {
   BrowserRouter,
   Route,
@@ -24,6 +25,7 @@ function App() {
         <Route path="/project" element={<Project/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/service" element={<Service/>}/>
       </Routes>
       <Footer/>
 

@@ -1,4 +1,31 @@
 @media screen and (min-width:1024px) {
+    .serviceContainer{
+        position:relative;
+        width:100%;
+        height:auto;
+        .servicecontainerrinner
+        {
+            position:relative;
+            text-align: center;
+            h1{
+                position:relative;
+                margin-top:100px ;
+            }
+            .serviceCard{
+                position:relative;
+                .card{
+                    position:relative;
+                    color:white;
+                    text-align: center;
+                    border-radius: 10px;
+                    background:rgb(66, 66, 66);
+                    .card-title{
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
     .Aboutcontainer
     {
         position:relative;
@@ -213,11 +240,13 @@
         position:relative;
         width:100%;
         margin-left:20%;
-        
+        ul{
+            position:relative;
+            margin-left: 20%;
+        }
        
         li{
             position:relative;
-            
             width:100%;
             margin-left:15%;
             font-size: 25px;
