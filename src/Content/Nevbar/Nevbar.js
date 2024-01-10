@@ -15,7 +15,7 @@ const Nevbar = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <Link class="nav-link" onClick={()=>window.location="/"}  >Home </Link>
+        <Link class="nav-link">Home </Link>
       </li>
       <li class="nav-item">
         <Link class="nav-link active" to="/features">Features</Link>
