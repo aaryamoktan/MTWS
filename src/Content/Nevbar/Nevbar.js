@@ -26,14 +26,14 @@ const Nevbar = () => {
         <Link class="nav-link active" to="/service" 
          onClick={()=>
         {
-          window.location=("/service").reload()
+          window.location=("https://mt-web-solution.onrender.com/service").reload()
         }}>Services</Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          window.location=("/about").reload()
+          window.location=("https://mt-web-solution.onrender.com/about").reload()
         }}>About</Link>
       </li>
     </ul>
