@@ -18,22 +18,22 @@ const Nevbar = () => {
         <Link to="/" 
          onClick={()=>
         {
-          window.location=("https://mt-web-solution.onrender.com/")
+          window.location=("/").relode();
         }} class="nav-link">Home </Link>
       </li>
       
       <li class="nav-item">
-        <Link class="nav-link active" to="/Service" 
+        <Link class="nav-link active" to="/service" 
          onClick={()=>
         {
-          window.location=("https://mt-web-solution.onrender.com/Service")
+          window.location=("/service").reload()
         }}>Services</Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          window.location=("https://mt-web-solution.onrender.com/about")
+          window.location=("/about").reload()
         }}>About</Link>
       </li>
     </ul>
