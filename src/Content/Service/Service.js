@@ -8,10 +8,7 @@ const Service = () => {
     const [name,setname] = useState()
     const params = useParams();
     const location = useLocation()
-    useEffect(()=>
-    {
-       
-    },[name])
+    
     return (
         <>
             <div className='serviceContainer'>

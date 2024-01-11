@@ -1977,15 +1977,14 @@
             width:100%;
             border-radius: 3px;
             height:100%;
-           left: 50px;
-            
+           left: 50px;   
         }
         p{
             position:relative;
-           margin-left:-18px;
+            margin-left:-18px;
             top:5px;
             font-size: 15px;
-            left: 30px;
+            left: 37px;
             font-family:fantasy;
         }
        }
@@ -2005,9 +2004,7 @@
             z-index:1;
             margin-left:35%;
             font-size: 25px;
-            font-family: 'Courier New', Courier, monospace;
-            
-           
+            font-family: 'Courier New', Courier, monospace;  
         }
        }
     }
@@ -2018,9 +2015,8 @@
         width: 100%;
         height: auto;
         background: rgb(5, 2, 13);
-      color:white;
+        color:white;
         box-shadow: 2px 2px 20px rgb(55, 55, 55);
-        
         .footercontaint1
         {
             position:relative;
@@ -2032,13 +2028,10 @@
                 position:relative;
                 top:10px;
                 font-size: 20px;
-
-                
             }
             p{
                 position:relative;
                 top:10px;
-               
             }
         }
         .footercontaint2
@@ -2064,8 +2057,6 @@
             margin-top: 20px;
             text-align: center;
             bottom: 10px;
-            
-         
             h1{
                 position:relative;
                 top:10px;
