@@ -21,7 +21,7 @@ const Nevbar = () => {
         {
           setTimeout(function(){
             window.location.reload();
-          },10)
+          },)
           
         }} class="nav-link">Home </Link>
       </li>
@@ -31,7 +31,7 @@ const Nevbar = () => {
          {
           setTimeout(function(){
             window.location.reload();
-          },10)
+          },)
          }}>Services</Link>
       </li>
       
@@ -40,7 +40,7 @@ const Nevbar = () => {
         {
           setTimeout(function(){
             window.location.reload();
-          },10)
+          },)
         }}>About</Link>
       </li>
     </ul>
