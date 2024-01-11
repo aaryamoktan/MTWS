@@ -19,6 +19,9 @@ const Nevbar = () => {
         <Link to="/" 
          onClick={()=>
         {
+          setTimeout(function(){
+            window.location.reload();
+          },10)
           
         }} class="nav-link">Home </Link>
       </li>
@@ -26,14 +29,18 @@ const Nevbar = () => {
         <Link class="nav-link active" to="/service" 
          onClick={()=>
          {
-          
+          setTimeout(function(){
+            window.location.reload();
+          },10)
          }}>Services</Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          
+          setTimeout(function(){
+            window.location.reload();
+          },10)
         }}>About</Link>
       </li>
     </ul>
