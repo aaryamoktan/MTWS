@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react'
+import { useParams,useLocation } from 'react-router-dom';
 const img1 = require("../../images/ecommerse.png");
 const img2 = require("../../images/floo.png")
 const img3 = require("../../images/blog.png")
 const img4 = require("../../images/car.png")
 const Service = () => {
     const [name,setname] = useState()
+    const params = useParams();
+    const location = useLocation()
     useEffect(()=>
     {
-        setTimeout(() => {
-            
-        }, 1);
+       
     },[name])
     return (
         <>
