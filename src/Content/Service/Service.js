@@ -7,10 +7,9 @@ const Service = () => {
     const [name,setname] = useState()
     useEffect(()=>
     {
-        const name = ()=>
-        {
+        setTimeout(() => {
             
-        }
+        }, 1);
     },[name])
     return (
         <>
