@@ -27,7 +27,7 @@ const Nevbar = () => {
         <Link class="nav-link active" to="/service" 
          onClick={()=>
         {  
-          window.location=("/service");
+          window.location.reload();
         }}>Services</Link>
       </li>
       
