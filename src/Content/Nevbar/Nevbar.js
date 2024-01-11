@@ -19,15 +19,14 @@ const Nevbar = () => {
         <Link to="/" 
          onClick={()=>
         {
-          window.location=("/").relode();
+          window.relode();
         }} class="nav-link">Home </Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active" to="/service" 
          onClick={()=>
-        {
-          navigator("/about")
+        {  
           window.reload()
         }}>Services</Link>
       </li>
@@ -35,7 +34,7 @@ const Nevbar = () => {
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          navigator("/about")
+          
           window.reload()
         }}>About</Link>
       </li>
