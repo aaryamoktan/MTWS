@@ -15,17 +15,25 @@ const Nevbar = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <Link to="/" class="nav-link">Home </Link>
+        <Link to="/" 
+         onClick={()=>
+        {
+          window.location=("https://mt-web-solution.onrender.com/")
+        }} class="nav-link">Home </Link>
       </li>
       
       <li class="nav-item">
-        <Link class="nav-link active" to="/Service">Services</Link>
+        <Link class="nav-link active" to="/Service" 
+         onClick={()=>
+        {
+          window.location=("https://mt-web-solution.onrender.com/Service")
+        }}>Services</Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          window.location=("/about")
+          window.location=("https://mt-web-solution.onrender.com/about")
         }}>About</Link>
       </li>
     </ul>
