@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link ,useNavigate} from 'react-router-dom'
 const img = require("../../images/mttt.png")
 const Nevbar = () => {
+  const navigator = useNavigate();
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light ">
@@ -26,14 +27,16 @@ const Nevbar = () => {
         <Link class="nav-link active" to="/service" 
          onClick={()=>
         {
-          window.location=("https://mt-web-solution.onrender.com/service").reload()
+          navigator("/about")
+          window.reload()
         }}>Services</Link>
       </li>
       
       <li class="nav-item">
         <Link class="nav-link active"  to="/about" onClick={()=>
         {
-          window.location=("https://mt-web-solution.onrender.com/about").reload()
+          navigator("/about")
+          window.reload()
         }}>About</Link>
       </li>
     </ul>
