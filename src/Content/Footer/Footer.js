@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className='footer' style={{position:"relative"}}>
@@ -23,7 +25,9 @@ const Footer = () => {
             <a href="/" target="blank"><i class="fa-brands fa-square-instagram" style={{}}><FaInstagram/>
             </i></a>
             <br/>
-            <a href="/" target="blank"><i class="fa-brands fa-square-twitter"></i>twitter</a>
+            <a href="/" target="blank"><i class="fa-brands fa-square-twitter"></i><FaTwitter/></a>
+            <br/>
+            <a href="/" target="blank"><i class="fa-brands fa-square-twitter"></i><FaLinkedin/></a>
             </div>
         </div>
     )

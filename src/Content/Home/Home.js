@@ -26,7 +26,7 @@ const Home = () => {
       <div className='Homecontainer'>
         <div className='homeinnercontainer'>
           <div className='Logo'>
-            <img src={img} style={{width:"100%",marginLeft:"-100px",marginTop:"-50px"}} alt="logo" />
+            <img src={img} style={{width:"100%"}} alt="logo" />
           </div>
           <div className='logoinfo'>
             <div className='logoinfoinner' style={{marginTop:"40px"}}>
