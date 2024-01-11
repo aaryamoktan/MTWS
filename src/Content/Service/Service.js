@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 const img1 = require("../../images/ecommerse.png");
 const img2 = require("../../images/floo.png")
 const img3 = require("../../images/blog.png")
 const img4 = require("../../images/car.png")
 const Service = () => {
+    const [name,setname] = useState()
+    useEffect(()=>
+    {
+        const name = ()=>
+        {
+            
+        }
+    },[name])
     return (
         <>
             <div className='serviceContainer'>

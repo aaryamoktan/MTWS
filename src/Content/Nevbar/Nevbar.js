@@ -22,13 +22,12 @@ const Nevbar = () => {
           window.location=("/");
         }} class="nav-link">Home </Link>
       </li>
-      
       <li class="nav-item">
         <Link class="nav-link active" to="/service" 
          onClick={()=>
-        {  
-          window.reload();
-        }}>Services</Link>
+         {
+          this.forceUpdate();
+         }}>Services</Link>
       </li>
       
       <li class="nav-item">
