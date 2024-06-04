@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className=' footercontaint2'>
             <h1>Contact</h1>
-            +977 9803071043  / +977 9814826533 / +977 9864508055
+            +977 9803071043  / +977 9814826533 
 
             <br/>
             
